@@ -1,12 +1,78 @@
-# React + Vite
+# Anima Brindes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains the **public frontend** of the **Anima Brindes** platform — an e-commerce for customized gifts and promotional products.  
+It was built using **React + Vite**, focusing on performance, modular components, and responsive design.
 
-Currently, two official plugins are available:
+> ⚠️ **Important:**  
+> This repository contains **only the frontend**.  
+> The backend and any sensitive data are **not included** and remain private.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Modern UI built with **React**  
+- Fast build and hot reload using **Vite**  
+- Reusable, component-based architecture  
+- Integration with external API via environment variables  
+- Ready for deployment on **Vercel**, **Netlify**, or similar platforms  
+
+---
+
+## 🧱 Stack
+
+- **React + Vite**  
+- **npm** package manager  
+- Optional support for **TypeScript**
+
+---
+
+## 📦 Scripts
+
+~~~bash
+npm install
+npm run dev      # development server
+npm run build    # production build
+npm run preview  # preview build
+~~~
+
+---
+
+## 🔧 Environment Variables
+
+Create a `.env` or `.env.local` file in the project root.  
+Only **public variables** (prefixed with `VITE_`) should be used.
+
+**Example:**
+
+~~~env
+VITE_API_URL=https://api.yourdomain.com
+~~~
+
+---
+
+## ⚙️ Project Setup
+
+~~~bash
+git clone <YOUR-REPOSITORY-URL>.git
+cd anima-brindes-frontend
+npm install
+npm run dev
+~~~
+
+Then open http://localhost:5173 in your browser.
+
+---
+
+## 🔒 Security Notes
+
+- The backend and private keys are **not included**.  
+- Always exclude `.env` and other sensitive files from commits.  
+- Use `.gitignore` to protect environment variables and build artifacts.
+
+---
+
+## 📜 License
+
+This project is **closed source** and provided for **portfolio and showcase purposes only**.  
+Unauthorized distribution or commercial use is prohibited.
